@@ -1,0 +1,5 @@
+config SHIELD_CUSTOM_SPLIT_LEFT
+    def_bool $(shields_list_contains,custom_split_left)
+
+config SHIELD_CUSTOM_SPLIT_RIGHT
+    def_bool $(shields_list_contains,custom_split_right)

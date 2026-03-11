@@ -1,0 +1,13 @@
+file_format: "2"
+id: custom_split
+name: Custom Split
+type: shield
+url: https://github.com/yourusername/zmk-config
+requires: [pro_micro]
+exposes: [pro_micro]
+features:
+  - keys
+  - display
+siblings:
+  - custom_split_left
+  - custom_split_right
